@@ -1,0 +1,39 @@
+.container {
+  margin: 20px 12px 20px 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+	margin: 15px;
+	border-radius: 5px;
+	background-color: white;
+	height: 90%;
+	width: 80%;
+	transition: all 1s ease-out;
+	&:hover {
+		transform: scale(1.1) rotate(30deg);
+	}
+}
+
+.image {
+  border-radius: 5px;
+  height: 80%;
+  width: 80%;
+  box-shadow: 5px 5px 5px gray;
+  z-index: 1;
+  margin-top: -10px;
+  &-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+.name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  width: 170px;
+  padding: 15px 0 15px 0;
+}
