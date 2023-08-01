@@ -22,10 +22,18 @@
   column-gap: 5%;
   background: white;
   line-height: 1.5;
+  transition: all 1s ease-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .single-image {
   border-radius: 8px;
+  transition: all 1s ease-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .card-info {
   break-inside: avoid;
@@ -33,6 +41,7 @@
 
 .card-property {
   font-weight: bold;
+  font-size: 18px;
 }
 
 @media (max-width: 860px) {

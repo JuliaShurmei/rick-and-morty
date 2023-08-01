@@ -4,6 +4,7 @@ import Characters from "./components/Characters/Characters";
 import SingleCharacter from "./components/SingleCharacter/SingleCharacter";
 import "./App.scss";
 
+
 function App() {
   return (
     <div className='wrapper'>
