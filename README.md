@@ -3,12 +3,9 @@
 ### 📜 Rick and Morty API built with React 
 
 
-![rick-and-morty](https://rick-and-morty.ekurt.dev/rick-and-morty.png)
-
 ## ✨ Features
 
 - Character Details
-- Pagination
 - [Get all characters](https://rick-and-morty.ekurt.dev/api) `/api`
 - [Get a single character with {id}](https://rick-and-morty.ekurt.dev/api/character/1) `/api/character/1`
 
